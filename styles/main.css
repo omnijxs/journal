@@ -38,5 +38,9 @@ body {
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+p {
+    padding-bottom: 20px;
+}
   
   
