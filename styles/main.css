@@ -39,6 +39,12 @@ body {
     color: white;
 }
 
+.quotes {
+    font-size: calc(2px + 2vmin);
+    font-style: italic;
+    text-align: left;
+}
+
 .entry {
     width: 80vw;
 }
