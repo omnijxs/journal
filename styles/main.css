@@ -23,10 +23,6 @@ body {
   font-family: Verdana, Tahoma, sans-serif !important;
   font-size: 16px;
 }
-
-.main {
-    text-align: center;
-}
   
 .main {
     background-color: #282c34;
@@ -35,6 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: calc(10px + 2vmin);
     color: white;
 }
@@ -42,7 +39,7 @@ body {
 .quotes {
     font-size: calc(2px + 2vmin);
     font-style: italic;
-    text-align: left;
+    padding-left: 5vw;
 }
 
 .entry {
@@ -51,10 +48,32 @@ body {
 
 p {
     padding-bottom: 20px;
-    width: 80vw;
+    width: 60vw;
+    text-align: left;
+}
+
+a {
+    padding-bottom: 20px;
+    width: 60vw;
+    text-align: left;
 }
   
 img {
     width: 80vw;
 }
+
+@media all and (max-width: 480px) {
+    p {
+        width: 80vw;
+    }
+
+    a {
+        width: 80vw;
+    }
+
+    .quotes {
+        width: 80vw;
+    }
+}
+
   
