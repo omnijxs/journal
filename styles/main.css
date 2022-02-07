@@ -39,7 +39,6 @@ body {
 .quotes {
     font-size: calc(2px + 2vmin);
     font-style: italic;
-    padding-left: 5vw;
 }
 
 .entry {
@@ -57,6 +56,14 @@ a {
     width: 60vw;
     text-align: left;
 }
+
+a:link {
+    color: silver;
+}
+  
+a:visited {
+    color: darkgray;
+}
   
 img {
     width: 80vw;
@@ -64,15 +71,15 @@ img {
 
 @media all and (max-width: 480px) {
     p {
-        width: 80vw;
+        width: 90vw;
     }
 
     a {
-        width: 80vw;
+        width: 90vw;
     }
 
     .quotes {
-        width: 80vw;
+        width: 90vw;
     }
 }
 
