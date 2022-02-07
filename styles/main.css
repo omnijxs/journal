@@ -37,7 +37,7 @@ body {
 }
 
 .quotes {
-    font-size: calc(2px + 2vmin);
+    font-size: calc(6px + 2vmin);
     font-style: italic;
 }
 
@@ -69,6 +69,10 @@ img {
     width: 80vw;
 }
 
+.page-edge {
+    width: 60vw;
+}
+
 @media all and (max-width: 480px) {
     p {
         width: 90vw;
@@ -79,6 +83,10 @@ img {
     }
 
     .quotes {
+        width: 90vw;
+    }
+
+    .page-edge {
         width: 90vw;
     }
 }
