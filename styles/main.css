@@ -86,6 +86,10 @@ img {
     width: 60vw;
 }
 
+.entry-title {
+    width: 60vw;
+}
+
 .bottom-nav {
     width: 60vw; 
     padding-bottom: 3vh;
@@ -126,6 +130,10 @@ img {
 
     .bottom-nav {
         width: 90vw; 
+    }
+
+    .entry-title {
+        width: 90vw;
     }
 }
 
