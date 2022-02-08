@@ -36,6 +36,19 @@ body {
     color: white;
 }
 
+.main-pic {
+    width: 100vw;
+}
+
+ul {
+    width: 60vw;
+}
+
+li {
+    text-align: left;
+    align-items: left;    
+}
+
 .quote {
     font-size: calc(6px + 2vmin);
     font-style: italic;
@@ -44,10 +57,6 @@ body {
 
 .centered {
     text-align: center;
-}
-
-.entry {
-    width: 80vw;
 }
 
 p {
@@ -93,6 +102,10 @@ img {
 
     .page-edge {
         width: 90vw;
+    }
+
+    ul {
+        width: 80vw;
     }
 }
 
