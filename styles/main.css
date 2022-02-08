@@ -87,6 +87,19 @@ img {
     width: 60vw;
 }
 
+.bottom-nav {
+    width: 60vw; 
+    padding-bottom: 3vh;
+}
+
+.bottom-nav .top-of-page {
+    float: right;
+}
+
+.bottom-nav .go-back {
+    float: left;
+}
+
 @media all and (max-width: 480px) {
     p {
         width: 90vw;
@@ -111,6 +124,9 @@ img {
     .main-pic {
         width: 100vw;
     }
+
+    .bottom-nav {
+        width: 90vw; 
 }
 
   
