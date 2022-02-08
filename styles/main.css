@@ -37,7 +37,7 @@ body {
 }
 
 .main-pic {
-    width: 100vw;
+    width: 60vw;
 }
 
 ul {
@@ -106,6 +106,10 @@ img {
 
     ul {
         width: 80vw;
+    }
+
+    .main-pic {
+        width: 100vw;
     }
 }
 
