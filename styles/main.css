@@ -50,7 +50,6 @@ li {
 }
 
 .quote {
-    font-size: calc(6px + 2vmin);
     font-style: italic;
     margin-bottom: 2px;
 }
@@ -127,6 +126,7 @@ img {
 
     .bottom-nav {
         width: 90vw; 
+    }
 }
 
   
