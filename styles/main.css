@@ -36,6 +36,11 @@ body {
     color: white;
 }
 
+.pic-text {
+    font-size: calc(4px + 2vmin);
+    text-align: center;
+}
+
 .main-pic {
     width: 60vw;
 }
@@ -52,6 +57,15 @@ body {
 .text-pic-list {
     width: 27vw; 
     padding-left: 3vw;
+}
+
+.entry-pic {
+    width: 60vw; 
+    padding-bottom: 3vh;
+}
+
+.entry-pic-with-text {
+    width: 60vw;
 }
 
 ul {
@@ -140,6 +154,14 @@ img {
 
     .main-pic {
         width: 100vw;
+    }
+
+    .entry-pic {
+        width: 90vw; 
+    }
+
+    .entry-pic-with-text {
+        width: 90vw; 
     }
 
     .bottom-nav {
