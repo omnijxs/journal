@@ -40,6 +40,20 @@ body {
     width: 60vw;
 }
 
+.text-and-pic-box {
+    display: flex; 
+    padding-top: 3vh;
+}
+
+.text-pic {
+    width: 30vw;
+}
+
+.text-pic-list {
+    width: 27vw; 
+    padding-left: 3vw;
+}
+
 ul {
     width: 60vw;
 }
@@ -134,6 +148,23 @@ img {
 
     .entry-title {
         width: 90vw;
+    }
+
+    .text-pic {
+        width: 90vw;
+    }
+
+    .text-and-pic-box {
+        display: block; 
+        padding-top: 3vh;
+    }
+    
+    .text-pic {
+        width: 80vw;
+    }
+    
+    .text-pic-list {
+        width: 80vw;
     }
 }
 
