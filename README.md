@@ -1,5 +1,8 @@
 # Journal
 
+* Relinking.
+* Fix favicon.
+
 * Remove unused blog pics.
 
 * How do I group stuff? Do all modding stuff make one page or should the theory be in a separate place?
