@@ -33,6 +33,10 @@ body {
     display: flex;
 }
 
+.links a {
+    text-align: center;
+}
+
 .main {
     background-color: #282c34;
     min-height: 100vh;
